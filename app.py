@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-st.siderbar.title('Software Educativo para el estudio de fenomenos ondulatorios')
+st.sidebar.title('Software Educativo para el estudio de fenomenos ondulatorios')
 op1=st.sidebar.radio("",['Ondas Estacionarias','Interferencia de Ondas','Onda general'])
 if op1=='Ondas Estacionarias':
   st.title(op1)
