@@ -7,7 +7,7 @@ if op1=='Ondas Estacionarias':
   st.title(op1)
   n=st.sider('',1,10)
   x=np.linspace(0,2*np.pi,150)
-  #st.write(x)
+ #st.write(x)
   y=np.sin(n*x/2)
   fig, ax = plt.subplots()
   ax.plot(x,y)
