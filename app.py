@@ -5,7 +5,7 @@ st.sidebar.title('Software Educativo para el estudio de ondas electromagnéticas
 op1=st.sidebar.radio("",['Ondas Estacionarias','Interferencia de Ondas','Onda general'])
 if op1=='Ondas Estacionarias':
   st.title(op1)
-  col1, col2, col3 = st.columns([3,6,6])
+  col1, col2, col3 = st.columns([6,6,6])
 with col2:
   st.image("https://qph.fs.quoracdn.net/main-qimg-47dfb28477b57ff310db4c3feb3ba157")
 n=st.slider('',4,20)
