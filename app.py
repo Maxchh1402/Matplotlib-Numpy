@@ -6,10 +6,11 @@ op1=st.sidebar.radio("",['Ondas Estacionarias','Interferencia de Ondas','Onda ge
 if op1=='Ondas Estacionarias':
   st.title(op1)
   n=st.slider('',4,20)
+  st.write ("""Modifica la potencia""")
   x=np.linspace(0,2*np.pi,150)
  #st.write(x)
   y=np.sin(n*x/2)
   fig, ax = plt.subplots()
   ax.plot(x,y)
   st.pyplot(fig)
-  st.write ("""Modifica la potencia""")
+  
