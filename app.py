@@ -12,3 +12,4 @@ if op1=='Ondas Estacionarias':
   fig, ax = plt.subplots()
   ax.plot(x,y)
   st.pyplot(fig)
+  st.write ("""Modifica la potencia""")
