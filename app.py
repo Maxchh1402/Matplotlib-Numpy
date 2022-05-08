@@ -5,7 +5,7 @@ st.sidebar.title('Software Educativo para el estudio de fenomenos ondulatorios')
 op1=st.sidebar.radio("",['Ondas Estacionarias','Interferencia de Ondas','Onda general'])
 if op1=='Ondas Estacionarias':
   st.title(op1)
-  n=st.slider('',1,10)
+  n=st.slider('',4,20)
   x=np.linspace(0,2*np.pi,150)
  #st.write(x)
   y=np.sin(n*x/2)
