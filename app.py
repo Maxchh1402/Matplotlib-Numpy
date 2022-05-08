@@ -2,8 +2,8 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 st.sidebar.title('Software Educativo para el estudio de ondas electromagnéticas')
-op1=st.sidebar.radio("",['Ondas Estacionarias','Interferencia de Ondas','Onda general'])
-if op1=='Ondas Estacionarias':
+op1=st.sidebar.radio("",['Ondas electromagnéticas'])
+if op1=='Ondas electromagnéticas':
 st.image("https://qph.fs.quoracdn.net/main-qimg-47dfb28477b57ff310db4c3feb3ba157")
 st.write ("""Modifica la potencia 10^:  """)
 n=st.slider('',4,20)
